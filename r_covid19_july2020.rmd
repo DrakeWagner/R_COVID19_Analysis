@@ -1,0 +1,51 @@
+---
+title: "July COVID-19 Trends"
+author: "Drake Wagner"
+date: "7/7/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Data on this analysis is collected Our World in Data's github repository (https://github.com/owid/covid-19-data/tree/master/public/data/). The dataset I use in this analysis was last updated on July 1st, 2020. OWID inputs COVID-19 data daily from every country with accessible data. The csv file includes many useful categorizations, such as information on the country, total number of cases, diabetes prevelance within the country, among other things. However, there are other columns that could be helpful in visualizing and comprehending the prevalance of infection, such as the percentage of country infected, percent infected by age, etc. I will be adding these to a dataframe, as well as removing many of the null values from the OWID dataset. The purpose of this analysis is to hopefully highlight trends and prevalence of the virus.
+
+
+```{r}
+setwd('C:\\Users\\dwagn\\Downloads\\R')
+data <- read.csv('covid-data-july2020.csv')
+
+# Fun little loop to add multiple packages via library() ;)
+for(i in c('dplyr', 'ggplot2')){
+  library(i, character.only=T)
+}
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
